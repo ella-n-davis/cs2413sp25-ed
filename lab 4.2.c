@@ -9,7 +9,7 @@ void dfs(char** grid, int gridSize, int* gridColSize, int i, int j){
     dfs(grid, gridSize, gridColSize, i, j-1);//l
 
 }
-
+printf("hello world");
 int numIslands(char** grid, int gridSize, int* gridColSize) {
     int isl_count = 0;
 
